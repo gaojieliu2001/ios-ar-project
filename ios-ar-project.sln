@@ -1,12 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ios-ar-project", "ios-ar-project.csproj", "{8D924B0A-C8F4-E650-EF19-EAC257238B47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ios-ar-project.Editor", "ios-ar-project.Editor.csproj", "{62D807B3-95A5-CA3A-D256-1A88E9F92E19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D924B0A-C8F4-E650-EF19-EAC257238B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D924B0A-C8F4-E650-EF19-EAC257238B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D924B0A-C8F4-E650-EF19-EAC257238B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D924B0A-C8F4-E650-EF19-EAC257238B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D807B3-95A5-CA3A-D256-1A88E9F92E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D807B3-95A5-CA3A-D256-1A88E9F92E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D807B3-95A5-CA3A-D256-1A88E9F92E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D807B3-95A5-CA3A-D256-1A88E9F92E19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
