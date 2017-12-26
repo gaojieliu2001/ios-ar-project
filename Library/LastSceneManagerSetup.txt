@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SamplesScenes/0-Splash.unity
+- path: Assets/SamplesResources/Scenes/0-Splash.unity
   isLoaded: 1
   isActive: 1
