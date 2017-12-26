@@ -8,15 +8,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: 
-    ufoLicenseKey: QWN0SWp6SC8vLy8vQUFBQUtBaHFuUHdqMGtRT2s2bGVyUTNIK1J0ZFo2VERmUWFjRHB1czJEZmRldi8xUnJiQzRIVVpxQjA3OEpuT1EyZXJHeWZVeUE5OVBpWVB5M3FwbVhrbnZqMCt4UmVRcDRSck9ZekdFZ0gxZW1iVWgzNEpTZGh2N1VyUzlDbC9FeVcyYU1leHMrQmFDTUJmUTVNOVpPU0NWL2l1MGdlOVFXMFdtYnRTSktDSkhBRGJhSzJXV2FPNHlGOWpIOFFMeGVJazVXV1o4dy8yUG9wR2c5THQyK2laYWF0UkRqeE9kSlZITS9OSE1tYmlsMDBmNnVhSDlsTzRRaVM5VHVOVTdNWVpYVDRhbllhZTFwYkp0bTB4RDVtWjRQMkxPWC92aXk3QjJGcDA3UU1zemE4OWh1Si9zRlFTc1h1NFJMQktvVWRZWEpKSWF0QUN2QzhtakQ3UFl0Q3dMZTlUT1BMTFpwbEtpTmVjV1hzL1BQbW0=
+    ufoLicenseKey: QWR4eVhvdi8vLy8vQUFBQUtMTEhBUytJZ2s5bnBXVlArRmEzYmY0T1JkYlAvbDNBVTllOXNsUS9MUDhFbDYvS2Z2WVJQaE4yeDY3dDd4c0M0cEIxWTMyS3J2V1FVdC80RzI1OEM0dUF2VGpDaDJYL0wzMTZXK080Y2FoSmlxdktuREd1U21nRDRUOE12SUFqTUpKODZMTlpDci9vRzdJQ09UZzY5SjF2TU5ZR3hobHRYZ0VKVzBVUlpENXpVZUZyaERjcDkwWkhFRU5PcUs1S0Z5R3R0aTdvY2FTYThqVmw5UkNwRTgrdm9NY2gva091TERNbVZGcTNlR3Rndi80UWZxVzFRY1dUQTNiWjhxRXk3ekpWVHF0ZkRoUjZJM3loNTc2ekJDMnFMMUw5TVJBSmtqUVN4SUpVRnBUbXg1MC9yV0c2Si9OWWo1bGp2SWRJa2haTHg5K05hSU1EWFVyb1BpTTUweGtLaXJBbjJRdXZ4Wm1MWXZYY0FuZTg=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 4
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
@@ -53,9 +53,9 @@ MonoBehaviour:
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
-    trackingMode: 1
+    autoInitTracker: 0
+    autoStartTracker: 0
+    trackingMode: 0
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: Logitech Camera
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30

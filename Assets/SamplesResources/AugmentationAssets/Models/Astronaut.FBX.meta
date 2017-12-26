@@ -209,6 +209,7 @@ ModelImporter:
   externalObjects: {}
   materials:
     importMaterials: 0
+    autoMapExternalMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -530,7 +531,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 5.249345
     meshCompression: 0
     addColliders: 0
     importVisibility: 0
@@ -543,8 +544,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88

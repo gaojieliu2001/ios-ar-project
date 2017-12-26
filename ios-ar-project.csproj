@@ -259,6 +259,9 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>E:/Unity5/Unity2017.3/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>E:/Unity5/Unity2017.3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions">
       <HintPath>E:/Unity5/Unity2017.3/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
@@ -307,8 +310,43 @@
     <Compile Include="Assets\Common\SplashAbout\LoadingScreen.cs" />
     <Compile Include="Assets\Common\TapHandler.cs" />
     <Compile Include="Assets\Common\TrackableSettings.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Astronaut.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Augmentation.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Drone.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Fissure.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Habitat.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\OxygenTank.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\RockPileController.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\InteractionHelpers\DrillController.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\InteractionHelpers\FadeObject.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\StateMachineBehaviours\AstronautStateMachineBehaviour.cs" />
+    <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\StateMachineBehaviours\AugmentationStateMachineBehaviour.cs" />
+    <Compile Include="Assets\SamplesResources\CloudReco\Scripts\CloudRecoContentManager.cs" />
+    <Compile Include="Assets\SamplesResources\CloudReco\Scripts\CloudRecoEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\CloudReco\Scripts\CloudRecoTrackableEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\CloudReco\Scripts\ScanLine.cs" />
+    <Compile Include="Assets\SamplesResources\CylinderTargets\Scripts\RotateAroundCylinder.cs" />
+    <Compile Include="Assets\SamplesResources\ImageTargets\Scripts\ModelSwap.cs" />
+    <Compile Include="Assets\SamplesResources\ImageTargets\Scripts\VideoController.cs" />
+    <Compile Include="Assets\SamplesResources\ImageTargets\Scripts\VideoTrackableEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\MultiTargets\Scripts\MultiTargetTrackableEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\ObjectReco\Scripts\ObjectRecoTrackableEventHandler.cs" />
     <Compile Include="Assets\SamplesResources\Scripts\AboutManager.cs" />
     <Compile Include="Assets\SamplesResources\Scripts\PlaneManager.cs" />
+    <Compile Include="Assets\SamplesResources\UserDefinedTargets\Scripts\FrameQualityMeter.cs" />
+    <Compile Include="Assets\SamplesResources\UserDefinedTargets\Scripts\QualityDialog.cs" />
+    <Compile Include="Assets\SamplesResources\UserDefinedTargets\Scripts\UDTEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\UserDefinedTargets\Scripts\UDTSettings.cs" />
+    <Compile Include="Assets\SamplesResources\VirtualButtons\Scripts\VirtualButtonEventHandler.cs" />
+    <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\OptionsConfig.cs" />
+    <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesAboutScreenInfo.cs" />
+    <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesLoadingScreen.cs" />
+    <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesMainMenu.cs" />
+    <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesNavigationHandler.cs" />
+    <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesTapHandler.cs" />
+    <Compile Include="Assets\SamplesResources\VuMark\Scripts\PanelShowHide.cs" />
+    <Compile Include="Assets\SamplesResources\VuMark\Scripts\VuMarkHandler.cs" />
+    <Compile Include="Assets\SamplesResources\VuMark\Scripts\VuMarkTrackableEventHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
   </ItemGroup>
@@ -318,6 +356,8 @@
     <None Include="Assets\Editor\Vuforia\TargetsetData\VuforiaMars_Object_info.xml" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_ModelTarget\authoringinfo.xml" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
+    <None Include="Assets\SamplesResources\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
+    <None Include="Assets\SamplesResources\VirtualButtons\Shaders\Gradient.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
